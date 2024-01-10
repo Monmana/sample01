@@ -83,39 +83,39 @@ h2 {
 @keyframes animation {
     0%{
         opacity: 0;
-        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+        background: url(yado_image01-01.jpg) no-repeat bottom/cover;
     }
     16% {
         opacity: 1;
-        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+        background: url(yado_image01-01.jpg) no-repeat bottom/cover;
     }
     33% {
         opacity: 0;
-        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+        background: url(yado_image01-01.jpg) no-repeat bottom/cover;
     }
     34%{
         opacity: 0;
-        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_02.jpg) no-repeat bottom/cover;
     }
     50%{
         opacity: 1;
-        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_02.jpg) no-repeat bottom/cover;
     }
     66%{
         opacity: 0;
-        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_02.jpg) no-repeat bottom/cover;
     }
     67%{
         opacity: 0;
-        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_04.jpg) no-repeat bottom/cover;
     }
     83%{
         opacity: 1;
-        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_04.jpg) no-repeat bottom/cover;
     }
     100%{
         opacity: 0;
-        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+        background: url(yado_image01_04.jpg) no-repeat bottom/cover;
     }
 }
 .scroll {
@@ -157,7 +157,7 @@ h3 {
     
 }
 .introduction {
-    background-image: url(../images/Line.png);
+    background-image: url(Line.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 50%;
