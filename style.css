@@ -1,0 +1,554 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif JP', serif;
+    color: #333;
+}
+header {
+    background-color: #017c87;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+}
+h1 img {
+    height: 60px;
+    display: block;
+}
+.global-nav a,h3,.scroll {
+    font-family: 'Roboto', sans-serif;
+}
+.global-nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.global-nav ul li a {
+    color: #f9f9f9;
+    margin: 10px;
+    text-decoration: none;
+}
+.grobal-nav ul li a:hover {
+    color: #a9f0c3;
+}
+.button a {
+    background-color: #ef562c;
+    font-size: 18px;
+    border-radius: 20px;
+    display: block;
+    width: 318px;
+    height: 64px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 64px;
+    transition: 0.4s;
+    color: #f9f9f9;
+}
+.button a:hover {
+    background-color: #c22a00;
+}
+.button .sp_delete {
+    color: #f9f9f9;
+}
+#experience .button a {
+    margin: 0 auto;
+}
+.menu-trigger {
+    display: none; /*PCの時は消しておく*/
+    -webkit-appearance: none; /* Crome用　フォ-ム要素の初期化*/
+    appearance: none; /*フォ-ム要素の初期化*/
+    border: none;
+    background: transparent; /* Firefox用 背景を透過させる設定*/
+}
+h2 {
+    color: rgb( 240, 240, 240, 0.9);
+    width: 100%;
+    height: 80svh;
+    padding: 50px 100px;
+    font-size: 36px;
+    animation-name: animation;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    z-index: 0;
+}
+@keyframes animation {
+    0%{
+        opacity: 0;
+        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+    }
+    16% {
+        opacity: 1;
+        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+    }
+    33% {
+        opacity: 0;
+        background: url(../images/yado_image01-01.jpg) no-repeat bottom/cover;
+    }
+    34%{
+        opacity: 0;
+        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+    }
+    50%{
+        opacity: 1;
+        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+    }
+    66%{
+        opacity: 0;
+        background: url(../images/yado_image01_02.jpg) no-repeat bottom/cover;
+    }
+    67%{
+        opacity: 0;
+        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+    }
+    83%{
+        opacity: 1;
+        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+    }
+    100%{
+        opacity: 0;
+        background: url(../images/yado_image01_04.jpg) no-repeat bottom/cover;
+    }
+}
+.scroll {
+    color: #017c87;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+.scroll img {
+    width: 20px;
+    margin: 0 10px;
+    vertical-align: bottom;
+}
+h3 {
+    margin: 68px 0;
+    font-size: 36px;
+    text-align: center;
+}
+.concept p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.yadoImage {
+    width: 100%;
+    margin-bottom: 108px;
+}
+.photos01 {
+    position: relative;
+}
+.yadoImage img {
+    width: 60%;
+    margin-left: 100px;
+}
+.yadoImage02 img {
+    width: 30%;
+    position: absolute;
+    right: 100px;
+    bottom: -40px;
+    
+}
+.introduction {
+    background-image: url(../images/Line.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 50%;
+    padding-top: 68px;
+}
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+.reverse {
+    flex-direction: row;
+}
+.slide01 {
+    width: 60%;
+}
+
+.slide01 img {
+    width: 100%;
+    padding: 30px;
+}
+.detail {
+    width: 40%;
+    padding: 30px;
+}
+h4 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.detail p {
+    font-size: 18px;
+}
+.livingPhoto {
+    width: 60%;
+}
+.livingPhoto img {
+    width: 100%;
+    padding: 30px;
+}
+.flex02 {
+    width: 100vw;
+    display: flex;
+}
+.photo03 img {
+    width: 100%;
+}
+.explain02 {
+    border: double 8px;
+    text-align: center;
+    padding: 40px;
+    width: 700px;
+    margin: 30px auto 68px;
+}
+.cost {
+    font-size: 28px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 20px;
+}
+.attention {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.explain02 a {
+    display: block;
+    margin: 0 auto;
+}
+.photo04 {
+    width: 60%;
+    padding: 30px;
+}
+.photo04 img {
+    width: 100%;
+}
+.px24 {
+    font-size: 24px;
+}
+.px20 {
+    font-size: 20px;
+}
+.px16 {
+    font-size: 16px;
+}
+.optionalTour p {
+    margin-bottom: 20px;
+}
+.rentalCycling {
+    margin-bottom: 40px;
+}
+.loopSlide {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+ 
+    ul {
+        padding: 0;
+        width: 100vw;
+        display: flex;
+        flex-shrink: 0;
+ 
+        &:first-child {
+            animation: slide1 60s -30s linear infinite;
+        }
+ 
+        &:last-child {
+            animation: slide2 60s linear infinite;
+        }
+ 
+        li {
+            display: inline-block;
+            width: 100%;
+            min-width: 150px;
+            margin-right: 20px;
+            list-style: none;
+            text-align: center;
+ 
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+ 
+        }
+ 
+    }
+}
+ 
+@keyframes slide1 {
+    0% {
+        transform: translateX(100%);
+    }
+ 
+    to {
+        transform: translateX(-100%);
+    }
+}
+ 
+@keyframes slide2 {
+    0% {
+        transform: translateX(0);
+    }
+ 
+    to {
+        transform: translateX(-200%);
+    }
+}
+.flex02 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex02 section {
+    padding: 0 30px;
+    width: 50%;
+}
+.flex02 section img {
+    width: 100%;
+}
+.flex02 section p {
+    text-align: center;
+}
+#experience h4 {
+    text-align: center;
+}
+.figure {
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+#experience p {
+    margin: 20px;
+}
+#access {
+    background-color: #a9f0c3;
+}
+#access h3 {
+    padding-top: 60px;
+}
+.yadoLogo {
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+}
+#access p {
+    text-align: center;
+}
+.flex03 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.flex03 p {
+    margin: 0 50px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    width: 600px;
+    height: 450px;
+}
+footer {
+    background-color: #017c87;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #f9f9f9;
+}
+.address{
+    margin: 20px 0;
+    color: #f9f9f9;
+}
+small {
+    display: block;
+    color: #f9f9f9;
+}
+.topReturn {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+.topReturn img {
+    width: 40px;
+}
+/* sp設定768px以下 */
+@media screen and (max-width: 768px) {
+    header {
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 72px 10px 10px;   
+    }
+    h1 {
+        width: 50%;
+    }
+    h1 img {
+        width: 100%;
+        height: auto;
+        line-height: 30px;
+    }
+    /* nav ul {
+        display: block;
+        line-height: 20px;
+        font-size: 14px;
+    } */
+    .button a {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 64px;
+        font-size: 16px;
+    }
+    /* ハンバーガーメニュー*/
+    .menu-trigger,
+    .menu-trigger span {
+        display: inline-block; /* ブロック要素とインライン要素の中間の状態の要素*/
+        transition: all .4s;
+        box-sizing: border-box;
+    }
+    .menu-trigger {
+        width: 56px;
+        height: 60px;
+        /*positionで画面左上に絶対配置*/
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        /*要素の重なり、上のレイヤーと同じ考えかた*/
+        z-index: 2;
+        /*クリックした際のボタン周りの線を消す*/
+        outline: none;
+      }
+    .menu-trigger span {
+        position: absolute;
+        left: 50%;
+        width: 32px;
+        height: 2px;
+        background-color: #f9f9f9;
+        /*menu-trigger内のspan全体を中心位置に揃える設定*/
+        transform: translate(-50%, -50%);
+    }
+    .menu-trigger span:nth-of-type(1) {
+        top: 16px;
+    }
+    .menu-trigger span:nth-of-type(2) {
+        top: 50%;
+    }
+    .menu-trigger span:nth-of-type(3) {
+        bottom: 14px;
+    }
+    .menu-trigger.active span:nth-of-type(1) {
+        top: 49%;
+        /* 変形の設定　右側の軸は変えずに左側を傾けている */
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .menu-trigger.active span:nth-of-type(2) {
+        opacity: 0; /*透過の指定で消してる*/
+    }
+    .menu-trigger.active span:nth-of-type(3) {
+        bottom: 49%;
+        /* 変形の設定　右側の軸は変えずに左側を上に傾けている */
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+     /*----- スマホ ナビゲーション ----- */
+    .global-nav {
+        display: none;/* クリックする前は消えてほしい  */
+        width: 100vw;/*画面横幅めいいっぱい広げる*/ 
+        height: 100vh;/*画面縦幅めいいっぱい広げる*/
+        background: rgba(1,125,135,.95);
+        margin: 0;
+        padding-top: 100px;
+        /*positionと組み合わせページをスクロールした場合も同じ位置に常に置く設定　transrateXと合わせてど真ん中に位置を合わせる設定*/
+        position: fixed;
+        top: 0; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;/* 何かしらの要素の背面に設置*/
+    }
+    .global-nav.active {
+        display: block;/* クリックした時に表示*/
+        z-index: 1;/* 何かしらの要素の全面に設置*/
+    }
+    .global-nav ul {
+        /* display:flex;を解除して縦並びにしている*/
+        display: block;
+        width: 100%;
+    }
+    
+    .global-nav li {
+        /*画面横にめいいっぱい伸ばしている設定*/
+        width: 50%;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .global-nav li a {
+        font-size: 16px;
+        text-align: right;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        background: none;
+        padding: 10px 0;
+        color: #f9f9f9;
+    }
+    h2 {
+        font-size: 28px;
+        padding: 50px;
+    }
+    .introduction {
+        background-size: 80%;
+    }
+    .flex {
+        display: block;
+    }
+    .photo {
+        width: 100%;
+        padding-top: 0;
+    }
+    .detail {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .sp_delete {
+        display: none;
+    }
+    .explain02 {
+        width: 90%;
+    }
+    .yadoLogo {
+        width: 100%;
+    }
+    .yadoLogo img {
+        width: 80%;
+    }
+    .cost {
+        font-size: 16px;
+    }
+    .px24 {
+        font-size: 20px;
+    }
+    .px20 {
+        font-size: 16px;
+    }
+    .px16 {
+        font-size: 14px;
+    }
+    .experienceDetail {
+        font-size: 16px;
+    }
+    .google {
+        width: 100%;
+    }
+    .google iframe {
+        width: 100%; 
+    }
+}
